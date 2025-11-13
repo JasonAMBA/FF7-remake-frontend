@@ -1,1 +1,9 @@
 @import "../styles/variables";
+
+* {
+  margin: 0;
+}
+
+html, body {
+  overflow-x: hidden; // 🔹 Empêche les débordements horizontaux
+}
